@@ -5,7 +5,13 @@
 
 .dark {
     background-color: #222;
-    color: #FFF; 
+    color: #FFF;
+}
+
+.alien {
+  display:  block;
+  display: none;  
+  position: fixed; right: 300px auto;
 }
 
 .status {
@@ -64,4 +70,3 @@
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d6d6d6', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
     box-shadow: -1px -4px 6px rgba(100,100,100,0.7);
 }
-
